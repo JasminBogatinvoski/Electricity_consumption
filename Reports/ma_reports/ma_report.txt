@@ -1,0 +1,12 @@
+-najsoodveten vremenski horizont e
+8 minuti bidejki dava validna reprezentacija
+na pikovite i dlabkite (ne izmesutuvajki gi
+premnogu)
+-razresuvanjeto na prviot horizont e so 
+zemanje srednite vrednosti vo toj moment
+
+
+-razresuvanjeto na istiot problem so standardna
+ta devijacija e napraveno so opredeluvanje na 
+std izmerenite podatoci i usrednetite podatoci
+(komentar za validnost na pristap??)
