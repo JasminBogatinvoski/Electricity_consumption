@@ -1,12 +1,18 @@
--najsoodveten vremenski horizont e
+-eden izbran vremenski horizont e
 8 minuti bidejki dava validna reprezentacija
 na pikovite i dlabkite (ne izmesutuvajki gi
 premnogu)
 -razresuvanjeto na prviot horizont e so 
 zemanje srednite vrednosti vo toj moment
-
-
 -razresuvanjeto na istiot problem so standardna
 ta devijacija e napraveno so opredeluvanje na 
 std izmerenite podatoci i usrednetite podatoci
 (komentar za validnost na pristap??)
+
+Zadaca: probuvam za 15 minuten vremenski horizont
+Zaklucok: pogolema varijansa znaci najverojatno
+prisustvo na lugje vo prostorijata (aktivnost na 
+uredi so pomala potrosuvacka, interesno e da moze
+da se razgleduva razlicna sostojba na uredi 
+ko stand by, shut down, on off)
+periodicnost na varijansi oznacuva uredi 
