@@ -47,7 +47,7 @@ for x in range(0, np.size(days)):
     ####################### features dates and index
 
     pom = data[days[x]]['pall']
-    pallMean = pd.rolling_mean(pom, window=frameSize)
+    pallMean = pd.rolling_mean(pom, window=frameSize, dtype='')
     pallMean.name = 'pallMean'
     pallMean.iloc[0:frameSize] = pom.iloc[0:frameSize].sum()/frameSize
 
