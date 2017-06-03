@@ -31,7 +31,7 @@ def SAD_partial(x1,x2,x3):
 startTime = time()
 d = {}
 frameSize = 420
-data, days = read_sm_csv_by_day_sequence(1, 6, '01-06-2012', '02-06-2012')
+data, days = read_sm_csv_by_day_sequence(1, 6, '01-06-2012', '01-07-2012')
 
 frames = []
 
@@ -197,10 +197,10 @@ for x in range(0, np.size(days)):
     SAD_partial3 = SAD_Total(pom, pom1, pom2)
     SAD_partial3DataFrame = pd.DataFrame(data=SAD_partial3, columns=['Sad_al3'])
 
-    newDataFrame = pd.concat([dates, index, pallMean, pallMin, pallMax, pallCorr, pallStd, pallCov, pallVar, onOffPallDataFrame, Sad_all_phase,
-                              pl1Mean, pl1Min, pl1Max, pl1Corr, pl1Std, pl1Cov, pl1Var, onOffPl1, onOffPl1DataFrame, SAD_partial1DataFrame,
-                              pl2Mean, pl2Min, pl2Max, pl2Corr, pl2Std, pl2Cov, pl2Var, onOffPl2, onOffPl2DataFrame, SAD_partial2DataFrame,
-                              pl3Mean, pl3Min, pl3Max, pl3Corr, pl3Std, pl3Cov, pl3Var, onOffPl2, onOffPl3DataFrame, SAD_partial3DataFrame
+    newDataFrame = pd.concat([dates, index, pallMean, pallMin, pallMax, pallCorr, pallStd, pallCov, pallVar, onOffPallDataFrame, Sad_all_phasePall,
+                              pl1Mean, pl1Min, pl1Max, pl1Corr, pl1Std, pl1Cov, pl1Var,  onOffPl1DataFrame, SAD_partial1DataFrame,
+                              pl2Mean, pl2Min, pl2Max, pl2Corr, pl2Std, pl2Cov, pl2Var,  onOffPl2DataFrame, SAD_partial2DataFrame,
+                              pl3Mean, pl3Min, pl3Max, pl3Corr, pl3Std, pl3Cov, pl3Var,  onOffPl3DataFrame, SAD_partial3DataFrame
                               ], axis=1)
     frames.append(newDataFrame)
 
