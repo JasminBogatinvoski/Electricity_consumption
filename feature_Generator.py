@@ -5,7 +5,7 @@ from time import time
 
 def onOff(pall):
     ThA = 30
-    ThT = 30
+    ThT = 10
     diff = np.abs(np.subtract(pall[1:], pall[0:-1]))
     onOffFeature = np.zeros((diff.shape[0],))
     k=1
@@ -203,7 +203,6 @@ for x in range(0, np.size(days)):
                               pl3Mean, pl3Min, pl3Max, pl3Corr, pl3Std, pl3Cov, pl3Var,  onOffPl3DataFrame, SAD_partial3DataFrame
                               ], axis=1)
     frames.append(newDataFrame)
-
 
 featuresTable = pd.concat(frames)
 featuresTable.to_csv('featuresTable6.csv')
